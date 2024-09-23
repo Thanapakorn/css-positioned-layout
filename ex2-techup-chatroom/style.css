@@ -1,1 +1,71 @@
 /* Start coding here */
+:root {
+    --head-color: dimgray;
+    --chatone-color: gray;
+    --chattwo-color: greenyellow;
+    
+ }
+header{
+    text-align: left;
+    background-color: var(--head-color);
+    color: white;
+    font-size: 50px;
+}
+.chat{
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: greenyellow; */
+    position: relative;
+}
+.hello{
+    background-color: var(--chattwo-color);
+    border-radius: 10px;
+    font-size: 30px;
+    width: 10%;
+    text-align: start;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.coding{
+    background-color: var(--chatone-color);
+    border-radius: 10px;
+    font-size: 30px;
+    width: 20%;
+    text-align: start;
+    position: absolute;
+    right: 0;
+    top: 55px;
+}
+.emoji{
+    background-color: var(--chattwo-color);
+    border-radius: 10px;
+    font-size: 30px;
+    width: 10%;
+    text-align: start;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.emoji1{
+    background-color: var(--chatone-color);
+    border-radius: 10px;
+    font-size: 30px;
+    width: 10%;
+    text-align: start;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+.emoji2{
+    background-color: var(--chatone-color);
+    border-radius: 10px;
+    font-size: 30px;
+    width: 10%;
+    text-align: start;
+    position: absolute;
+    left: 20px;
+    top: 250px;
+}
