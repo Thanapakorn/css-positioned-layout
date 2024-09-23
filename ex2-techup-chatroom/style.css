@@ -1,1 +1,68 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --head-color: rgb(78, 71, 71);
+}
+body {
+  position: relative;
+}
+h1 {
+  font-size: 30px;
+  color: aliceblue;
+  background-color: var(--head-color);
+}
+.chat-1,
+.chat-2,
+.chat-3,
+.chat-4,
+.chat-5 {
+  border-radius: 20px;
+  width: 150px;
+  height: 35px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 5px;
+}
+.chat-1,
+.chat-3 {
+  background-color: rgb(98, 183, 62);
+}
+.chat-4,
+.chat-5 {
+  background-color: var(--head-color);
+}
+.chat-2 {
+  background-color: lightgrey;
+}
+.chat-1 {
+  position: absolute;
+  left: 500px;
+  top: 50px;
+}
+.chat-2 {
+  position: absolute;
+  left: 500px;
+  top: 100px;
+}
+.chat-3 {
+  position: absolute;
+  left: 500px;
+  top: 150px;
+}
+.chat-4 {
+  position: absolute;
+  left: 10px;
+  top: 200px;
+}
+.chat-5 {
+  position: absolute;
+  left: 10px;
+  top: 250px;
+}
+.chat-tyles-1 {
+  background-color: rgb(98, 183, 62);
+}
